@@ -1,0 +1,20 @@
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Public Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.4rem;
+  font-family: var(--primary-font);
+}
+.container {
+  width: 1140px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
